@@ -19,7 +19,7 @@ def generate_response(prompt, max_length=50):
 
 @app.route('/')
 def index():
-    return render_template('indexconcl.html')
+    return render_template('indexQGPT.html')
 
 
 @app.route('/ask', methods=['POST'])
