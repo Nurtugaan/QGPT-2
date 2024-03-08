@@ -6,7 +6,9 @@ Implemented question-answering system capable of processing textual information 
 • Using the ”transformers” library in python for pretraining
 • Creating a user-friendly interface
 ### How to use
-'pip install flask'
-'pip install transformers'
+'''
+pip install flask
+pip install transformers
+'''
 You can train Chatgpt-2 with your available datasets
 We used .txt files like "poems_1.txt", "poems_4.txt", "tengri_almaty.txt" to process information in Kazakh language
